@@ -23,6 +23,7 @@ class JokesTray extends Component {
 		this.changeVotes = this.changeVotes.bind(this);
 		this.fetchNewJokes = this.fetchNewJokes.bind(this);
 		this.deleteAJoke = this.deleteAJoke.bind(this);
+		this.deleteAllJokes = this.deleteAllJokes.bind(this);
 	}
 	async getLimitedJokes() {
 		const jokes = [];
@@ -74,7 +75,12 @@ class JokesTray extends Component {
 		const existingJokes = this.state.jokes.filter(aJoke => {
 			return aJoke.id !== uniqueId;
 		});
+		this._seenJokes.delete(uniqueId);
 		this.setState({ jokes: existingJokes });
+	}
+	deleteAllJokes() {
+		this.setState({ jokes: [] });
+		this._seenJokes.delete();
 	}
 	componentDidMount() {
 		const json = localStorage.getItem('allJokes');
@@ -122,7 +128,7 @@ class JokesTray extends Component {
 					<button className='JokesTray-getmore' onClick={this.fetchNewJokes}>
 						Fetch Jokes
 					</button>
-					<button className='JokesTray-deleteAll'>
+					<button className='JokesTray-deleteAll' onClick={this.deleteAllJokes}>
 						Delete All
 					</button>
 				</div>

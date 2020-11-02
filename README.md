@@ -1,6 +1,8 @@
 # Dad Jokes App
 This is a simple Application which uses the api https://icanhazdadjoke.com/api to fetch random jokes which are unique and then displays them. There is also a voting facility where the user can vote their favorite jokes and accordingly the jokes will appear on the page in ascending order of their respective vote counts.
 
+It also uses localstorage to store the fetched jokes temporarily.
+
 This project is a part of Colt Steele's React Bootcamp. I hope everyone will have fun using this App. Any kind of improvement is highly welcomed.
 
 ## Getting Started
