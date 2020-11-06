@@ -15,14 +15,14 @@
 }
 
 .JokesTray-sidebar {
-	background-color: #9575cd;
+	background-color: #d32f2f;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	width: 30%;
 	text-align: center;
-	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1), inset 0 0 25px #7e57c2;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1), inset 0 0 25px #c62828;
 	z-index: 2;
 }
 
@@ -76,8 +76,8 @@
 	transition: 0.8s cubic-bezier(0.2, 0.1, 0.2, 0.1);
 	background: linear-gradient(
 		135deg,
-		rgba(179, 229, 252, 1) 0%,
-		rgba(179, 229, 252, 1) 50%,
+		rgba(109,76,65, 1) 0%,
+		rgba(109,76,65, 1) 50%,
 		rgba(240, 98, 146, 1) 50%,
 		rgba(240, 98, 146, 1) 100%
 	);
@@ -99,9 +99,9 @@
 	background: linear-gradient(
 		135deg,
 		rgba(240, 98, 146, 1) 0%,
-		rgba(240, 98, 146, 1) 60%,
-		rgba(179, 229, 252, 1) 60%,
-		rgba(179, 229, 252, 1) 100%
+		rgba(240, 98, 146, 1) 55%,
+		rgba(109,76,65, 1) 55%,
+		rgba(109,76,65, 1) 100%
 	
 	);
 	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);

@@ -119,7 +119,7 @@
 }
 
 .Joke-delete:hover {
-	color: #d50000;
+	color: #f44336;
 	animation-name: trash-bounce;
 	animation-duration: 0.3s;
 	animation-timing-function: ease-in-out;
