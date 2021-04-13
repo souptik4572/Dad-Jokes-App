@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './JokesTray.css';
 
-import Joke from './Joke';
+import Joke from '../Joke/Joke';
 import axios from 'axios';
 import FlipMove from 'react-flip-move';
 
-import { pickEmojiAndColor, sortTheJokes } from './helper';
+import { pickEmojiAndColor, sortTheJokes } from '../../helper';
 
 const API_URL = 'https://icanhazdadjoke.com/';
 

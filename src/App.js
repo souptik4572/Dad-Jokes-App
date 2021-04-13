@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import JokesTray from './JokesTray';
+import JokesTray from './components/JokesTray/JokesTray';
 
 class App extends Component {
   render() {
