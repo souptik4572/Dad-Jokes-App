@@ -5,6 +5,8 @@ It also uses localstorage to store the fetched jokes temporarily.
 
 This project is a part of Colt Steele's React Bootcamp. I hope everyone will have fun using this App. Any kind of improvement is highly welcomed.
 
+The React application is hosted [here](https://funnydadjokesapp.netlify.app/).
+
 ## Getting Started
 
 To run the app in any local machine, it must be ensured that it have node installed. And then execute the following commands on the console.
